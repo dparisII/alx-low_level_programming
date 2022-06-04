@@ -14,6 +14,7 @@ do
 {
 	if (x == 'e' && x == 'q')
 	{
+		putchar("");
 		continue;
 	}
 

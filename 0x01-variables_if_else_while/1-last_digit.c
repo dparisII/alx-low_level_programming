@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/* more headers goes there
+ * main - main
+ * Description: Get a random number and check its last digit, compare it with 5
+ * return 0
+ */
 
 int main(void)
 {

@@ -8,12 +8,13 @@
  */
 int main(void)
 {
+	int x;
 
-	for (int x; x <= 9; x++)
+	for (x = 0; x <= 9; x++)
 	{
 		putchar(x + '0');
 	}
-	for (int z; z <= 'f'; z++)
+	for (int z = 0; z <= 'f'; z++)
 	{
 		putchar(z);
 	}

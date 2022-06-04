@@ -8,14 +8,12 @@
  */
 int main(void)
 {
-	char x = '0';
-	char z = 'a';
 
-	for (;x <= 9; x++)
+	for (int x; x <= 9; x++)
 	{
-		putchar(x);
+		putchar(x + '0');
 	}
-	for (;z <= 'f'; z++)
+	for (int z; z <= 'f'; z++)
 	{
 		putchar(z);
 	}

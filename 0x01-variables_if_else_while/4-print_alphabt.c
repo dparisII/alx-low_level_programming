@@ -20,6 +20,6 @@ do
 	putchar(x);
 	x++;
 }
-while (x <= 'z')
-return (0);
+while (x <= 'z');
+return 0;
 }

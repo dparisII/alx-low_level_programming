@@ -15,7 +15,7 @@ while (x <= 'z')
 {
 	putchar(x);
 	x++;
-}	
+}
 while (z <= 'Z')
 {
 	putchar(z);

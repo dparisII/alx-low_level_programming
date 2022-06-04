@@ -1,26 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - main
- * Description: this is a list for listing a to z with out including e & q
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
  * Return: 0
  */
 
 int main(void)
 {
-char x = 'a';
-do
-{
-	if (x == 'e' && x == 'q')
-	{
-		x += 1;
-		continue;
-	}
+char c = 'a';
 
-	putchar(x);
-	x++;
+while (c <= 'z')
+{
+	if (c != 'e' && c != 'q')
+	{
+		putchar(c);
+	}
+		c++;
 }
-while (x <= 'z');
-return 0;
+	putchar('\n');
+return (0);
 }

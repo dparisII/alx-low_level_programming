@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
+/**
  * main - main block
  * Description: Get a list from a to z
  * Return: 0

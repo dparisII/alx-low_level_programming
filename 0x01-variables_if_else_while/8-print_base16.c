@@ -9,12 +9,13 @@
 int main(void)
 {
 	int x;
+	int z;
 
 	for (x = 0; x <= 9; x++)
 	{
 		putchar(x + '0');
 	}
-	for (int z = 'a'; z <= 'f'; z++)
+	for (z = 'a'; z <= 'f'; z++)
 	{
 		putchar(z);
 	}

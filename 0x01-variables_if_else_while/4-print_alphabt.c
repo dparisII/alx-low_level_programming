@@ -10,14 +10,16 @@
 int main(void)
 {
 char x = 'a';
-while (x <= 'z')
+do
 {
 	if (x == 'e' && x == 'q')
 	{
-	continue;
-	putchar(x);
+		continue;
 	}
+
+	putchar(x);
 	x++;
 }
+while (x <= 'z')
 return (0);
 }

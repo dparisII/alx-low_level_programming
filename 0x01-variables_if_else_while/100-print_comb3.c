@@ -24,7 +24,7 @@ int main(void)
 				{
 					putchar(',');
 					putchar(' ');
-				}}c++;}d++;}
+				} } c++; } d++; }
 	putchar('\n');
 	return (0);
 }

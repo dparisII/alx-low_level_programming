@@ -20,7 +20,7 @@ int main(void)
 			while (d < 10)
 			{
 				c = 0;
-				while (c = 0)
+				while (c < 10)
 				{
 					if (!(f == c && c == d))
 					{

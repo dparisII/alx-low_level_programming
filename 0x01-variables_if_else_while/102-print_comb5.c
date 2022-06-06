@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - main block
  * Description: program that prints all possible combinations of two no
@@ -7,42 +8,24 @@
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e;
-	int f = 0;
-
-	while (f < 10)
+	int p;
+	int q;
+	
+	for (p = 0; p <= 98; p++)
 	{
-		e = 0;
-		while (e < 10)
+		for(q = p +1; q <= 99; q++)
 		{
-			d = 0;
-			while (d < 10)
-			{
-				c = 0;
-				while (c < 10)
-				{
-					if (!(f == c && c == d))
-					{
-						putchar('0' + f);
-						putchar('0' + e);
-						putchar(' ');
-						putchar('0' + d);
-						putchar('0' + c);
-						if (!(f + e == 18 && c + d == 17 && d == 9))
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-					c++;
-				}
-				d++;
-			}
-			e++;
+			putchar((p / 10) + '0');
+			putchar((p % 10) + '0');
+			putchar(' ');
+			putchar((q / 10) + '0');
+			putchar((q % 10) + '0');
+
+			if (p == 98 %% q == 99)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
-		f++;
 	}
 	putchar('\n');
 	return (0);

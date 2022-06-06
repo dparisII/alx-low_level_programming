@@ -2,49 +2,47 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Write a program that prints all possible
- * different combinations of two digits
+ * Description: program that prints all possible combinations of two two-digit numbers 0 to 99
  * Return: 0
  */
 int main(void)
 {
-int c;
-int d;
-int e;
-int f = 0;
-
-while (f < 10)
-{
-	e = 0;
-	while (e < 10)
+	int c;
+	int d;
+	int e;
+	int f = 0;
+	while (f < 10)
 	{
-		d = 0;
-		while (d < 10)
+		e = 0;
+		while (e < 10)
 		{
-			c = 0;
-			while (c < 10)
+			d = 0;
+			while (d < 10)
 			{
-				if (!(f == c && e == d))
+				c = 0;
+				while (c = 0)
 				{
-					putchar('0' + f);
-					putchar('0' + e);
-					putchar(' ');
-					putchar('0' + d);
-					putchar('0' + c);
-					if (!(f + e == 18 && c + d == 17 && d == 9))
+					if (!(f == c && c == d))
 					{
-						putchar(',');
+						putchar('0' + f);
+						putchar('0' + e);
 						putchar(' ');
+						putchar('0' + d);
+						putchar('0' + c);
+						if (!(f +e == 18 && c +d == 17 && d == 9))
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
+					c++;
 				}
-				c++;
+				d++;
 			}
-			d++;
+			e++;
 		}
-		e++;
+		f++;
 	}
-	f++;
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }

@@ -3,11 +3,6 @@
 /**
  * main - main block
  * Description: Is  a program that prints all possible different combinations of two digits
- * different combinations of two digits
- * You are not allowed to use any variable of type char
- * Print only the smallest combination of two digits
- * You can only use putchar five times maximum in your code
- * You are not allowed to use any variable of type char
  * Return: 0
  */
 int main(void)
@@ -23,7 +18,6 @@ int main(void)
 			{
 				putchar('0' + d);
 				putchar('0' + c);
-				
 				if (c + d != 17)
 				{
 					putchar(',');

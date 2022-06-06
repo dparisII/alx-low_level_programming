@@ -12,20 +12,22 @@ int main(void)
 
 	while (d < 10)
 	{
-		if (d != c && d < c)
+		while (c =< 10)
 		{
-			putchar('0' + d);
-			putchar('0' + c);
-			if (c + d != 17)
+			if (d != c && d < c)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar('0' + d);
+				putchar('0' + c);
+				if (c + d != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
+			c++;
 		}
-		c++;
+		d++;
 	}
-	d++;
-}
 putchar('\n');
 return (0);
 }

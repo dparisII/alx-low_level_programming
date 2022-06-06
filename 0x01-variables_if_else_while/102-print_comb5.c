@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: program that prints all possible combinations of two two-digit numbers 0 to 99
+ * Description: program that prints all possible combinations of two no
  * Return: 0
  */
 int main(void)

@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - check the code
+ * void - void block
  * Description - prints the alphabet, in lowercase
+ * print_alphabet - printing the alphabet in small letter
  * Return: Always 0
  */
 void print_alphabet(void)

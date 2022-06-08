@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description - this is a file to print -putchar
- * Return - 0
+ * Description: this is a file to print -putchar
+ * Return: 0
  */
 int main(void)
 {

@@ -3,9 +3,8 @@
 #include "main.h"
 /**
  * void - void block
- * Description - prints the alphabet, in lowercase
  * print_alphabet - printing the alphabet in small letter
- * Return: void
+ * Return - void
  */
 void print_alphabet(void)
 {

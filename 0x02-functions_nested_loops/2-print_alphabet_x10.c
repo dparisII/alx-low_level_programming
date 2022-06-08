@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * void - void block
- * print_alphabet_x10 - printing alphabet 10 times
- * Result - void
+ *
+ * print_alphabet_x10 - print alphabet 10 times
+ *
+ * Return: void
  */
 void print_alphabet_x10(void)
 {

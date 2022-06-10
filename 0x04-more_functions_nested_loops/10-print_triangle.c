@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- * print_triagle - a function that prints a triangle
+ * print_triangle -  a function that prints a triangle, followed by a new line.
  * @size: An input integer
- * Return: void
+ * Return: Always 0
  */
 void print_triangle(int size)
 {
-	int i = 0;
-	int j;
-	int n = size -1;
+	int i = 0, j, n = size - 1;
 
 	if (size > 0)
 	{
@@ -27,5 +25,5 @@ void print_triangle(int size)
 		}
 	}
 	else
-		_putchar('\n');
+	_putchar('\n');
 }

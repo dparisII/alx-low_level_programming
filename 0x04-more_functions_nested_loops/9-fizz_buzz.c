@@ -2,21 +2,23 @@
 #include "main.h"
 
 /**
-  * main - Entry point
-  * Return: Always 0
-  */
+ * main - Entry piont
+ * Return: Always 0
+ */
 int main(void)
 {
-	int i;
+	int i = 1;
 
-	for (; i <=100; i++)
+	for (; i < 100 ; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf(i, "FizzBuzz ");
+			printf("FizzBuzz ");
 		else if (i % 3 == 0)
-			printf(i, "Fizz ");
+			printf("Fizz ");
 		else if (i % 5 == 0)
-			printf(i, "Buzz ");
+			printf("Buzz ");
+		else
+			printf("%d ", i);
 	}
 	printf("Buzz\n");
 	return (0);

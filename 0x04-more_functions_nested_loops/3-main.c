@@ -8,5 +8,5 @@
 int main(void)
 {
 	print_numbers();
-	retun (0);
+	return (0);
 }

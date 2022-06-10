@@ -19,5 +19,5 @@ int _isdigit(int c)
 		}
 	}
 
-	return (isdigitt);
+	return (isdigit);
 }

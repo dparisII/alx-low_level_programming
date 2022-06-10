@@ -9,7 +9,7 @@ int main(void)
 {
 	int print_number();
 
-	print_numbers(98);
+	print_number(98);
 	_putchar('\n');
 	print_number(402);
 	_putchar('\n');

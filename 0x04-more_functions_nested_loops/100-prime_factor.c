@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * trying to find a prime factor
+ * main - Entry point
  * Return: Always 0
  */
 int main(void)
@@ -15,5 +14,5 @@ int main(void)
 			n /= i;
 	}
 	printf("%lu\n", n);
-	return(0);
+	return (0);
 }

@@ -1,17 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
- * main - main block
- * Description:
- * Return: 0
- */
-int main(void)
-{
-	char c;
+#include "0-main.c"
 
-	c = 'A';
-	printf("%c: %d\n", C, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _islower(c));
-	return (0);
+/**
+ * _isupper - a function that checks for upper case character
+ * @c: An input character
+ * Return: 1 if c is uppercase or 0 oterwise
+ */
+int _isupper(int c)
+{
+	char uppercase = 'A';
+	int isupper = 0;
+
+	for (; uppercase <= 'Z'; upercase++)
+	{
+		if(c == upercase)
+		{
+			isupper = 1;
+			break;
+		}
+	}
+
+	return (isupper);
 }

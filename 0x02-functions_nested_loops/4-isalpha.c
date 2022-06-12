@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * _isalpha - this checks if it leter is alphabet or not

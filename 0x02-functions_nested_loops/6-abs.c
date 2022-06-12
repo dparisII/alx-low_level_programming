@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * int _abs - this function checks if it is  an absolute value
- * int: the main type
+ * _abs - this function checks if it is  an absolute value
+ * @x: the input character
  * Return: 0
  */
 int _abs(int x)

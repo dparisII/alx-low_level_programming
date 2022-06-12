@@ -2,7 +2,7 @@
 
 /**
  * main - main block
- * is_lower checks if it is lower
+ * _islower this checks if the letter is lower or not
  * Return: 0
  */
 int _islower(int c)

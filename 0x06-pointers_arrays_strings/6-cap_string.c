@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
  * cap_string - capitalizes all words of a string
  * @s: input string.
  * Return: the pointer to dest.
  */
+
 char *cap_string(char *s)
 {
 	int count = 0, i;
@@ -21,7 +21,6 @@ char *cap_string(char *s)
 			{
 				if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
 					(s + (count + 1)) = *(s + (count + 1)) - 32;
-
 				break;
 			}
 		}

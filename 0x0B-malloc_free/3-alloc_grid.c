@@ -5,7 +5,7 @@
  * alloc_grid - prints a grid of integers
  * @width: width of grid
  * @height: height of the grid
- * Returrn: pointer
+ * Return: pointer
  */
 int **alloc_grid(int width, int height)
 {
@@ -16,7 +16,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 
-	s = malloc(sizeof (int *)* height);
+	s = malloc(sizeof(int *)* height);
 	if (s == NULL)
 	{
 		return (NULL);
@@ -28,7 +28,7 @@ int **alloc_grid(int width, int height)
 
 		if (s[r] == NULL)
 		{
-			for (; r >= 0; r --)
+			for (; r >= 0; r--)
 			{
 				free(s[r]);
 			}
@@ -38,7 +38,7 @@ int **alloc_grid(int width, int height)
 
 		for (c = 0; c <= width; c++)
 		{
-			s[r][c] =0;
+			s[r][c] = 0;
 		}
 	}
 	return (s);

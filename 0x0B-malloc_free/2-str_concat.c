@@ -23,9 +23,9 @@ int _strlen(char *s)
  * @s2: string 2
  * Return: char
  */
-char *str_concat(char *s1/ char *s2)
+char *str_concat(char *s1; char *s2)
 {
-	unsigned int 11, 12;
+	unsigned int l1, l2;
 	char *conc, *tmp;
 
 	if (!s1)
@@ -48,6 +48,6 @@ char *str_concat(char *s1/ char *s2)
 
 	while ((*tmp++ = *s2++))
 		;
-
+}
 	return(conc);
 }

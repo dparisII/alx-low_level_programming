@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- * string_noncat - A function that concatinates two strings
+ * string_nconcat - A function that concatenates two strings
  * @s1: An input pointer of the first string
  * @s2: An input pointer of the second string
- * @n: an input integer of number of strings to concatenate
- * Return: Apointer to concatinated string or NULL if it str is NULL
+ * @n: an input integer of number of string to concatenate
+ * Return: Apointer to concatened strings or NULL if it str is NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	cahr *new_str;
+	char *new_str;
 	unsigned int i = 0, lens1 = 0, lens2 = 0;
 
 	if (s1 == NULL)
@@ -36,9 +36,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		if (i < lens1)
 			new_str[i] = *s1, s1++;
+
 		else
 			new_str[i] = *s2, s2++;
 	}
 	new_str[i] = '\0';
+
 	return (new_str);
 }

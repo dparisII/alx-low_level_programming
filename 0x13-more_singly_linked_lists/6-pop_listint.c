@@ -9,8 +9,8 @@
 int pop_listint(listint_t **head)
 {
 	listint_t *tp;
-
 	int my_data;
+
 	if (*head == NULL)
 		return (0);
 
